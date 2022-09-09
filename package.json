@@ -14,7 +14,7 @@
     "./package.json": "./package.json"
   },
   "scripts": {
-    "test": "jest --forceExit",
+    "test": "jest --forceExit __tests__/application/compose.js",
     "lint": "eslint --ignore-path .gitignore .",
     "authors": "git log --format='%aN <%aE>' | sort -u > AUTHORS",
     "build": "gen-esm-wrapper . ./dist/koa.mjs",
